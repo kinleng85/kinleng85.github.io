@@ -57,7 +57,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 }
       var redirectURL = getParameterByName('url');
       if(redirectURL!=null){
-        document.getElementById('sRedirect').innerHTML = document.getElementById('sRedirect').innerHTML.replace('another domain',extractHostname(redirectURL));
+        if(redirectURL=='http://invol.co/cl8x98'){
+          document.getElementById('sRedirect').innerHTML = document.getElementById('sRedirect').innerHTML.replace('another domain','hostgator.com');
+        }else{
+          document.getElementById('sRedirect').innerHTML = document.getElementById('sRedirect').innerHTML.replace('another domain',extractHostname(redirectURL));
+        }
         document.getElementById('aRedirect').onclick = function() {
         document.getElementById("aRedirect").href=redirectURL;
       }
