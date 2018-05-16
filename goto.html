@@ -82,7 +82,10 @@
     if(redirectURL!=null){
       if(redirectURL=='http://invol.co/cl8x98'){
         document.getElementById('sRedirect').innerHTML = document.getElementById('sRedirect').innerHTML.replace('another domain','hostgator.com');
-      }else{
+      }else if(redirectURL.includes('clickbank')){
+        document.getElementById('sRedirect').innerHTML = document.getElementById('sRedirect').innerHTML.replace('another domain','dropshippingplugin.com');
+      }
+      else{
         document.getElementById('sRedirect').innerHTML = document.getElementById('sRedirect').innerHTML.replace('another domain',extractHostname(redirectURL));
       }
       document.getElementById('aRedirect').onclick = function() {
