@@ -836,7 +836,7 @@ h5 {
     height: 55px;
 }
 .pitch-header {
-    background: url("img/main/pitch_header_bg_min.jpg") center/cover no-repeat;
+    /*background: url("img/main/pitch_header_bg_min.jpg") center/cover no-repeat;*/
     padding: 110px 0 117px;
 }
 .pitch-header h1 {
