@@ -1,0 +1,8 @@
+.message__body {
+  font-size:14px;
+  color:#fff;
+}
+
+.message--right .message__body {
+  color:#000;
+}
