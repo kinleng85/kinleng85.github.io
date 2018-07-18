@@ -216,7 +216,7 @@
 }
 @media (max-width: 991px) {
     .pitch-header {
-        background: #f4f4f4;
+        /*background: #f4f4f4;*/
         padding: 30px 0 40px;
         text-align: center;
     }
