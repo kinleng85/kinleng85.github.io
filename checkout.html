@@ -54,23 +54,9 @@
         <div class="header-brand">
           <div class="container">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-nav">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              </button>
               <a class="navbar-brand" href="/">
-              <img class="img-responsive" alt="Dropship Commerce" src="assets/dropship-commerce.png">
+                <img class="img-responsive" alt="Dropship Commerce" src="assets/dropship-commerce.png">
               </a>
-            </div>
-            <div class="collapse navbar-collapse" id="header-nav">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="/">Home</a></li>
-                <li><a href="what-is-dropshipping.html">What Is Dropshipping</a></li>
-                <li><a href="free-guide.html">Free Guide</a></li>
-                <li><a href="checkout.html" class="buy-now btn-large-orange">Buy Now - $39</a></li>
-              </ul>
             </div>
           </div>
         </div>
@@ -78,23 +64,44 @@
     </div>
     <div class="pitch-top-features">
       <div class="container">
-        <div class="text-center" style="border: 1px solid #f57f17; padding:5px; line-height:24px; margin-bottom:24px; font-size:15px">
-          <strong>Step #1 Completed. We'll send the free guide download link to your email in a few minutes</strong>
-        </div>
         <div class="row">
-          <div class="text-center">
-            <h2>
-               Step #2. Simplify Your Dropshipping Business And LAUNCH Faster
-            </h2>
-            <p>
-              When I set up my first store in other online store creator tool some years back, everything was done manually. I spent weeks just to learn how to set up my store and import all the products I want to sell.<br><br> Then I discovered this combination of WordPress and <a href="https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Falidropship.com%2F%3Fvia%3D4642%26campaign%3DfullLP">AliDropship</a>, and I practically launch my new online store within days and already making my first sale within a month!
-            </p>
-            <img src="assets/online-store.png" class="img-responsive" style="margin:0px auto">
-            <p>
-              Create your own stunning dropshipping store quickly and easily and start earning now!
-            </p>
-            <div class="pitch-button">
-              <a class="btn btn-large btn-large-orange" href="https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Falidropship.com%2F%3Fvia%3D4642%26campaign%3DfullLP">I Want To Get It Now</a><br/><br/><br/><br/>
+          <div>
+            <h1>
+               Your Order
+            </h1><br>
+            <table style="width:100%">
+                <tr>
+                    <td><b>One Ready-Made Dropship Store (One-Time Payment)</b></td>
+                    <td style="color:#f57f17;text-align:right;min-width:100px"><b>US 39</b></td>
+                </tr>
+                <tr>
+                    <td>
+                      <ul>
+                        <li>eCommerce Store using WooCommerce</li>
+                        <li>Find and Filter Reliable AliExpress Suppliers</li>
+                        <li>Import 50 Professionally Edited and Profitable Products</li>
+                      </ul>
+                  </td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" id="hosting" name="hosting" value="hosting" onclick="changeTotal()"><b> Includes Hosting</b></td>
+                <td id="tdHosting" style="color:#bfbfbf;text-align:right;min-width:100px"><b>US $30/Year</b></td>
+              </tr>
+              <tr>
+                  <td>
+                      <ul>
+                        <li>Hosting is needed to host your eCommerce store on the internet</li>
+                        <li>If you already have your own hosting, you do not need to purchase our hosting</li>
+                      </ul>
+                  </td>
+              </tr>
+              <tr style="border-top:1px solid #f57f17;border-bottom:1px solid #f57f17;">
+                <td style="padding:10px 0px"><b>Total</b></td>
+                <td id="tdTotal" style="color:#f57f17;text-align:right;padding:10px 0px;min-width:100px"><b>US $39</b></td>
+              </tr>
+            </table>
+            <div class="pitch-button" style="text-align:right">
+              <a id="btnCheckout" class="btn btn-large btn-large-orange" href="https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3D78BJ894F9UXZC">Complete Order via PayPal</a>
             </div>
           </div>
         </div>
@@ -110,6 +117,19 @@
         })(window,document,'script','https://dropship-commerce.mautic.net/mtc.js','mt');
 
         mt('send', 'pageview');
+
+        function changeTotal() {
+            var checkbox = document.getElementById('hosting');
+              if (checkbox.checked == true) {
+                document.getElementById("tdHosting").style.color = "#f57f17";
+                document.getElementById("tdTotal").innerHTML = "<b>US $69</b>";
+                document.getElementById("btnCheckout").href = "https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3DYANVZW7N4K9GE";
+            } else {
+                document.getElementById("tdHosting").style.color = "#bfbfbf";
+                document.getElementById("tdTotal").innerHTML = "<b>US $39</b>";
+                document.getElementById("btnCheckout").href = "https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3D78BJ894F9UXZC";
+            }
+        }
     </script>
   </body>
 </html>
