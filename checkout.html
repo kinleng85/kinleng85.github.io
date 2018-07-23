@@ -84,14 +84,13 @@
                   </td>
               </tr>
               <tr>
-                <td><input type="checkbox" id="hosting" name="hosting" value="hosting" onclick="changeTotal()"><b> Includes Hosting</b></td>
+                <td><input type="checkbox" id="hosting" name="hosting" value="hosting" onclick="changeTotal(30,'YANVZW7N4K9GE')"><b> Includes Hosting</b></td>
                 <td id="tdHosting" style="color:#bfbfbf;text-align:right;min-width:100px"><b>US $30/Year</b></td>
               </tr>
               <tr>
                   <td>
                       <ul>
                         <li>Hosting is needed to host your eCommerce store on the internet</li>
-                        <li>If you already have your own hosting, you do not need to purchase our hosting</li>
                       </ul>
                   </td>
               </tr>
@@ -118,12 +117,13 @@
 
         mt('send', 'pageview');
 
-        function changeTotal() {
+        function changeTotal(amount,buttonId) {
+            var oriAmount = 39;
             var checkbox = document.getElementById('hosting');
               if (checkbox.checked == true) {
                 document.getElementById("tdHosting").style.color = "#f57f17";
-                document.getElementById("tdTotal").innerHTML = "<b>US $69</b>";
-                document.getElementById("btnCheckout").href = "https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3DYANVZW7N4K9GE";
+                document.getElementById("tdTotal").innerHTML = "<b>US $"+(oriAmount+amount)+"</b>";
+                document.getElementById("btnCheckout").href = "https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3D"+buttonId;
             } else {
                 document.getElementById("tdHosting").style.color = "#bfbfbf";
                 document.getElementById("tdTotal").innerHTML = "<b>US $39</b>";
