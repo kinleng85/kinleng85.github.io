@@ -72,41 +72,47 @@
             <table style="width:100%">
                 <tr>
                     <td><b>Ready-Made Dropship Store (One-Time Payment)</b></td>
-                    <td style="color:#f57f17;text-align:right;min-width:100px"><b>US $39</b></td>
+                    <td style="color:#f57f17;text-align:right;min-width:100px"><b>US $69</b></td>
                 </tr>
                 <tr>
                     <td>
                       <ul>
-                        <li>eCommerce Store using WooCommerce</li>
+                        <li>E-commerce Store using WooCommerce</li>
                         <li>Find and Filter Reliable AliExpress Suppliers</li>
                         <li>Import 50 Professionally Edited and Profitable Products</li>
+                        <li>FREE 1-Year Hosting (<b>$30/year</b> 2nd year onwards)</li>
                         <li>FREE SSL Cert + CDN</li>
                         <li>FREE Mobile Responsive Theme</li>
                         <li>FREE Payment Gateway Setup</li>
                         <li>FREE AdWords & Bing Credits</li>
-                        <li>FREE Niche Selection Guide</li>
                         <li>FREE Consultation</li>
                       </ul>
                   </td>
               </tr>
               <tr>
-                <td><input type="checkbox" id="hosting" name="hosting" value="hosting" onclick="changeTotal(30,'YANVZW7N4K9GE')"><b> Includes Hosting</b></td>
-                <td id="tdHosting" style="color:#bfbfbf;text-align:right;min-width:100px"><b>US $30/Year</b></td>
+                <td><input type="checkbox" id="plugin" name="plugin" value="plugin" onclick="changeTotal(40,'3CB57NNQ5NZEA')"><b> Includes Premium Dropship Plugin (One-Time Payment)</b></td>
+                <td id="tdPlugin" style="color:#bfbfbf;text-align:right;min-width:100px"><b>US $40</b></td>
               </tr>
               <tr>
                   <td>
                       <ul>
-                        <li>Hosting is needed to host your eCommerce store on the internet</li>
+                        <li>Automates tedious process of your Dropship Business</li>
+                        <li>One click import of products from AliExpress</li>
+                        <li>Auto stock level and price update</li>
+                        <li>Auto fulfill order with one-click</li>
+                        <li>Auto delivery tracking and notification</li>
+                        <li>Powerful marketing tools</li>
+                        <li>Cashback system allows you to earn 12% more</li>
                       </ul>
                   </td>
               </tr>
               <tr style="border-top:1px solid #f57f17;border-bottom:1px solid #f57f17;">
                 <td style="padding:10px 0px"><b>Total</b></td>
-                <td id="tdTotal" style="color:#f57f17;text-align:right;padding:10px 0px;min-width:100px"><b>US $39</b></td>
+                <td id="tdTotal" style="color:#f57f17;text-align:right;padding:10px 0px;min-width:100px"><b>US $69</b></td>
               </tr>
             </table>
             <div class="pitch-button" style="text-align:right">
-              <a id="btnCheckout" class="btn btn-large btn-large-orange" href="https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3D78BJ894F9UXZC">Complete Order via PayPal</a>
+              <a id="btnCheckout" class="btn btn-large btn-large-orange" href="https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3DYANVZW7N4K9GE">Complete Order via PayPal</a>
             </div>
           </div>
         </div>
@@ -124,16 +130,16 @@
         mt('send', 'pageview');
 
         function changeTotal(amount,buttonId) {
-            var oriAmount = 39;
-            var checkbox = document.getElementById('hosting');
+            var oriAmount = 69;
+            var checkbox = document.getElementById('plugin');
               if (checkbox.checked == true) {
-                document.getElementById("tdHosting").style.color = "#f57f17";
+                document.getElementById("tdPlugin").style.color = "#f57f17";
                 document.getElementById("tdTotal").innerHTML = "<b>US $"+(oriAmount+amount)+"</b>";
                 document.getElementById("btnCheckout").href = "https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3D"+buttonId;
             } else {
-                document.getElementById("tdHosting").style.color = "#bfbfbf";
-                document.getElementById("tdTotal").innerHTML = "<b>US $39</b>";
-                document.getElementById("btnCheckout").href = "https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3D78BJ894F9UXZC";
+                document.getElementById("tdPlugin").style.color = "#bfbfbf";
+                document.getElementById("tdTotal").innerHTML = "<b>US $69</b>";
+                document.getElementById("btnCheckout").href = "https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3DYANVZW7N4K9GE";
             }
         }
     </script>
