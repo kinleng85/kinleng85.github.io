@@ -1,0 +1,1096 @@
+@media (min-width: 480px) {
+    .container {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 720px
+    }
+    .founder h2 {
+        margin-bottom: 25px;
+        font-size: 30px
+    }
+    .founder {
+        padding: 0 0 45px 15px
+    }
+    .founder p {
+        margin-bottom: 20px
+    }
+    .founder p::before {
+        position: absolute;
+        top: 5px;
+        left: -19px;
+    }
+    #why-carousel .owl-carousel .owl-nav .owl-prev {
+        left: -35px
+    }
+    #why-carousel .owl-carousel .owl-nav .owl-next {
+        right: -30px
+    }
+    #why-carousel .carousel-inner .item img {
+        width: 403px;
+        height: 218px
+    }
+    .header-brand, .header-navbar {
+        font-weight: 500
+    }
+    .header-brand ul, .header-navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0
+    }
+    .header-navbar ul li:first-child a {
+        padding-left: 0
+    }
+    .header-navbar ul li:last-child a {
+        padding-right: 0
+    }
+    .header-brand ul li, .header-navbar ul li {
+        display: inline-block
+    }
+    .header-navbar ul li > ul.dropdown-menu li, .header-navbar ul li > ul.dropdown-menu li a {
+        display: block
+    }
+    .header-navbar ul li > ul.dropdown-menu li:first-child a {
+        padding-left: 12px
+    }
+    .header-brand a.contact {
+        color: #da7e28;
+        border: 1px solid #da7e28;
+        border-radius: 2px;
+        -webkit-border-radius: 2px
+    }
+    .header-brand a.contact:active, .header-brand a.contact:focus, .header-brand a.contact:hover {
+        color: #fff;
+        background: #ca6f1f;
+        border: 1px solid #ca6f1f
+    }
+    .header-navbar .phone-info i {
+        background: #f57f17;
+        color: #3d3d3d;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        margin-right: 7px;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        text-align: center;
+        line-height: 16px
+    }
+    .blue-bg br {
+        display: none
+    }
+    .navbar-nav.navbar-right > li {
+        font-weight: 400
+    }
+}
+@media (max-width: 991px) {
+    #why-carousel .owl-carousel .owl-dots {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .header-brand ul li {
+        display: block
+    }
+    .header-brand ul, .header-brand ul li, .header-brand ul.navbar-right {
+        float: none !important
+    }
+    .navbar-nav.navbar-right > li {
+        font-weight: 600
+    }
+    .header-brand ul li a.buy-now.btn-large-orange {
+        font-size: 16px;
+        width: 200px;
+        height: 44px;
+        text-align: center;
+        margin: 10px 0 12px 0;
+        padding: 11px 12px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 940px
+    }
+    #why-carousel .owl-carousel .owl-dots {
+        text-align: left
+    }
+    .main-header {
+        padding: 40px 0 50px
+    }
+    .main-header .margin-top {
+        margin-top: 50px
+    }
+    .header-brand ul li a, .header-navbar ul li a {
+        line-height: 29px;
+        display: inline-block;
+        padding: 0 12px
+    }
+    .header-brand ul li {
+        padding: 4px 0
+    }
+    .founder {
+        padding: 50px 0
+    }
+    .founder h2 {
+        margin-bottom: 45px
+    }
+    #why-carousel .carousel-inner .item img {
+        width: 531px;
+        height: 288px
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px
+    }
+}
+@media (max-width: 767px) {
+    .footer-sticky .confidence .title {
+        display: block
+    }
+    #why-carousel .carousel-inner .item img {
+        width: 420px !important;
+        height: auto;
+    }
+    #why-carousel .owl-carousel .owl-next, #why-carousel .owl-carousel .owl-prev {
+        display: none
+    }
+    .main-header.main-header-blog {
+        padding: 24px 0 50px
+    }
+    .main-header-blog h2.h2 {
+        font-size: 24px !important
+    }
+    .main-header-blog .sub_title {
+        font-size: 18px !important
+    }
+    .main-header.main-header-blog b {
+        font-size: 14px;
+        font-weight: 700
+    }
+    .main-header-blog input[type=email] {
+        width: 100%;
+        max-width: 100%;
+        float: none;
+        height: 44px;
+    }
+    .main-header-blog .main-header-form {
+        width: 100%;
+        max-width: 100%;
+        margin: 15px auto 0
+    }
+    .main-header-blog button.btn {
+        width: 100%;
+        margin: 15px auto 0;
+        float: none;
+        line-height: 15px;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .btn-large-orange, .btn-blue {
+        font-size: 16px;
+        width: 220px;
+        height: 44px;
+        line-height: 42px;
+        padding: 0;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer-brand img {
+        margin: 0 auto;
+    }
+    .footer .address {
+        margin-top: 14px;
+    }
+    .founder p::before {
+        position: absolute;
+        top: 5px;
+        left: -5px;
+    }
+    .founder-first {
+        padding-left: 15px;
+    }
+}
+@media (max-width: 991px) {
+    .pitch-header {
+        /*background: #f4f4f4;*/
+        padding: 30px 0 40px;
+        text-align: center;
+    }
+    .pitch-grey-rad-bg h2 br, .pitch-header h1 br, .pitch-helped h2 br, .pitch-dark-alidropship h2 br, .pitch-top-features-row br, .pitch-top-features strong br, .pitch-grey-rad-bg strong br, .pitch-inside p strong br, #why-carousel .owl-carousel .owl-nav {
+        display: none;
+    }
+    .pitch-dark {
+        padding: 30px 0 35px;
+    }
+    .pitch-top-features-row-desc {
+        margin-bottom: 15px;
+    }
+    .pitch-top-features-row {
+        margin: 20px 0 35px;
+    }
+    .block_h, .block_s, .block_xs {
+        /*min-height: 100%;*/
+    }
+    .pitch-helped-desc {
+        margin-bottom: 12px;
+    }
+    .pitch-automation-desc {
+        margin: 5px 0 25px;
+    }
+    .pitch-daniel-block, .pitch-martin-block {
+        margin-top: 35px;
+    }
+    .pitch-kingpin-block, .pitch-mousslim-block {
+        margin-top: 35px;
+    }
+    .pitch-get-started-block-right {
+        border-left: none;
+        border-top: 1px solid #e3e3e3;
+        padding-top: 25px;
+        margin-top: 35px;
+    }
+    .pitch-dark h2 {
+        margin-bottom: 0;
+    }
+    .pitch-dark img {
+        margin-top: 40px;
+    }
+    .pitch-prices {
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .pitch-header h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .pitch-header h1 span {
+        font-size: 40px;
+    }
+    .pitch-top-features h2, .pitch-grey-rad-bg h2, .pitch-helped h2, .pitch-inside h2, .pitch-people h2, .pitch-img h2, .pitch-get-started h2, .pitch-key-notes h2, .pitch-how-works h2, .pitch-dark-alidropship h2, .pitch-dark h2, .pitch-money-back h2, .pitch-dark-alidropship span, .founder .founder-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .pitch-header p, .pitch-top-features p, .pitch-grey-rad-bg p, .pitch-helped p, .pitch-inside p, .pitch-people p, .pitch-how-works p, .pitch-get-started p, .pitch-money-back p, .pitch-top-features-row-title, .pitch-plugin-block-title, .founder .founder-subtitle, .another-success-story .another-success-story-sub {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .founder, .pitch-dark, .pitch-helped, .pitch-inside, .pitch-people, .pitch-how-works, .pitch-money-back, .pitch-grey-rad-bg, .pitch-top-features, .pitch-dark-alidropship, .alidropship-get-plugin {
+        padding-top: 30px;
+    }
+    .pitch-get-started {
+        padding: 35px 0 40px 0;
+    }
+    .pitch-header p {
+        margin-top: 17px;
+        margin-bottom: 23px;
+    }
+    .pitch-header strong, .another-success-story h3 {
+        font-size: 20px;
+    }
+    .built-in-themes, .single-click, .full-compatibility, .all-inclusive {
+        background-size: 50px;
+    }
+    .pitch-top-features-row-title {
+        padding-top: 55px;
+    }
+    .pitch-top-features-row-title:after {
+        margin: 8px 0;
+    }
+    .pitch-grey-rad-bg p, .pitch-helped p {
+        margin-bottom: 30px;
+    }
+    .pitch-plugin-block-desc {
+        margin: 2px 0 24px;
+    }
+    .pitch-helped-title, .pitch-how-works-step {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .pitch-prices img {
+        margin: 0 auto;
+        max-width: 290px;
+        position: relative;
+        right: 25px;
+    }
+    .pitch-discount, .pitch-regular-price, .pitch-today-price {
+        font-size: 16px;
+        line-height: 34px;
+    }
+    .pitch-button a {
+        font-size: 16px;
+        padding: 12px 28px;
+    }
+    .pitch-button a strong, .pitch-today-price strong {
+        font-size: 26px;
+    }
+    .pitch-note {
+        font-size: 12px;
+    }
+    .pitch-inside h3 {
+        font-size: 22px;
+        margin-bottom: 23px;
+    }
+    .pitch-inside img {
+        max-width: 50px;
+    }
+    .pitch-inside p {
+        margin-bottom: 30px;
+    }
+    .another-success-story-pad {
+        padding: 30px 30px 33px;
+    }
+    .another-success-story p {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .pitch-money-back-link a {
+        font-size: 16px;
+        padding: 8px 28px;
+    }
+    .pitch-get-started-link a {
+        font-size: 16px;
+        padding: 7px 24px;
+    }
+    .grey-line-left {
+        left: -9px;
+    }
+    .grey-line-left, .grey-line-right {
+        width: 43px;
+    }
+    .grey-line-right {
+        left: 35px;
+        top: 218px;
+    }
+    .pitch-how-works-title {
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+    .pitch-how-works-title:after {
+        top: 38px;
+    }
+    .grey-line, .grey-line-s {
+        height: 380px;
+    }
+    .pitch-webstore {
+        top: 205px;
+    }
+    .grey-line-s {
+        height: 260px;
+    }
+    .pitch-how-works .another-success-story {
+        padding: 13px 10px 20px;
+    }
+    .carousel .item span {
+        font-size: 18px;
+    }
+    .carousel .item p {
+        margin: 25px 0 15px;
+    }
+    .pitch-get-started-block {
+        margin-top: 20px;
+        padding: 30px 15px;
+    }
+    .pitch-get-started-today-price {
+        font-size: 56px;
+        line-height: 60px;
+    }
+    .pitch-get-started-block-right ul {
+        padding-left: 15px;
+    }
+    .navbar-collapse.collapse, .success-stories .owl-carousel .owl-nav {
+        display: none !important
+    }
+    .navbar-collapse.collapse.in, .navbar-header .collapse, .navbar-toggle {
+        display: block !important
+    }
+    .navbar-header {
+        float: none
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pitch-header {
+        padding: 40px 0 50px;
+        background-position-x: -55px;
+    }
+    .pitch-dark, .pitch-top-features, .pitch-grey-rad-bg, .pitch-dark-alidropship, .pitch-inside, .pitch-people, .pitch-how-works, .founder, .pitch-get-started {
+        padding: 40px 0 45px;
+    }
+    .pitch-top-features-row .pitch-top-features-row-title br, .another-success-story p br, .pitch-money-back h2 br {
+        display: none;
+    }
+    .full-compatibility, .built-in-themes, .single-click, .all-inclusive {
+        background-size: 48px;
+    }
+    .pitch-top-features-row-title {
+        padding-top: 63px;
+    }
+    .pitch-top-features-row {
+        margin: 36px 0 70px;
+    }
+    .block_h, .block_s {
+        min-height: 180px;
+    }
+    .another-success-story-pad {
+        padding: 33px 20px 35px;
+    }
+    .grey-line-left {
+        left: -10px;
+    }
+    .grey-line-right {
+        left: 46px;
+    }
+    .grey-line-left, .grey-line-right {
+        width: 55px;
+    }
+    .pitch-how-works-title:after {
+        top: 46px;
+    }
+    .pitch-how-works-title {
+        font-size: 20px;
+        margin-top: 3px;
+    }
+    .pitch-how-works-step {
+        font-size: 19px;
+    }
+    .pitch-how-works-desc {
+        margin-top: 25px;
+    }
+    .grey-line-s {
+        height: 235px;
+    }
+    .pitch-grey-rad-bg .carousel-inner {
+        padding: 0 30px;
+        overflow: visible;
+    }
+    #why-carousel .owl-carousel .owl-nav .owl-prev {
+        left: -55px;
+    }
+    #why-carousel .owl-carousel .owl-nav .owl-next {
+        right: -55px;
+    }
+    .pitch-key-notes p {
+        margin: 10px 0 30px;
+    }
+    .pitch-people img {
+        margin-top: -7px;
+    }
+    .carousel .item p {
+        line-height: 24px;
+        font-size: 14px;
+        margin: 50px 0 26px;
+    }
+    .pitch-get-started-block {
+        margin-top: 25px;
+    }
+    #why-carousel .owl-carousel .owl-dots {
+        margin-top: -30px;
+    }
+    .pitch-daniel-block, .pitch-martin-block {
+        margin-top: 50px;
+    }
+    .pitch-dark h2 {
+        padding: 0 30px;
+    }
+    .pitch-dark h2 {
+        margin-bottom: 50px;
+    }
+    .pitch-helped p {
+        margin-bottom: 50px;
+    }
+    .pitch-helped {
+        padding: 40px 0 30px 0;
+    }
+	.thankyou-pitch-page-social {
+        margin-left: -455px;
+    }
+    .pitch-icon .fa {
+        padding: 0 10px 0 15px;
+    }
+    .contact-us-icons .fa {
+        margin-right: 4px;
+    }
+    .contact-us-icons p {
+        font-size: 16px;
+    }
+    .thankyou-pitch-page hr {
+        max-width: 740px;
+    }
+    .section-tools-main hr {
+        max-width: 740px;
+    }
+}
+@media (max-width: 1199px) {
+    .pitch-money-back {
+        background: url("img/main/pitch-money-back-img.jpg") center/cover no-repeat;
+        padding: 75px 0;
+        text-align: center;
+    }
+    .pitch-money-back h2 br {
+        display: none;
+    }
+    .pitch-key-notes {
+        padding: 40px 0 55px;
+    }
+    .section-main {
+        padding: 70px 0 80px 0;
+    }
+	.footer-link {
+		display: block;
+		padding-left: 0;
+		margin-top: 10px;
+	}
+	.footer-right {
+		padding-right: 0;
+		border-right: 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .pitch-money-back {
+        padding: 30px 0;
+    }
+    .pitch-money-back p {
+        margin: 16px 0 18px;
+    }
+}
+@media (max-width: 991px) {
+    .pitch-key-notes p{
+        margin-bottom: 28px;
+    }
+    .pitch-key-notes {
+        padding: 30px 0 40px;
+    }
+    .section-main {
+        padding: 50px 0 55px 0;
+    }
+    .section-tools-main h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .section-title {
+        font-size: 26px;
+    }
+    .thankyou-pitch-page-contact-us.section-block-pb h2 {
+        font-size: 26px;
+    }
+    .section-block {
+        padding: 45px 0;
+    }
+    .section-block-pb {
+        padding: 0 0 45px 0 !important;
+    }
+}
+@media (max-width: 767px) {
+    .pitch-header {
+        padding: 30px 0 33px;
+    }
+    .pitch-header h1 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .pitch-header h1 span {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .pitch-top-features h2, .pitch-grey-rad-bg h2, .pitch-helped h2, .pitch-inside h2, .pitch-people h2, .pitch-img h2, .pitch-get-started h2, .pitch-key-notes h2, .pitch-how-works h2, .pitch-dark h2, .pitch-money-back h2, .founder .founder-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .pitch-dark-alidropship h2,
+    .pitch-dark-alidropship span{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .pitch-header p, .pitch-top-features p, .pitch-grey-rad-bg p, .pitch-helped p, .pitch-inside p, .pitch-people p, .pitch-how-works p, .pitch-get-started p, .founder .founder-subtitle {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .pitch-helped, .pitch-inside, .pitch-people, .pitch-how-works, .pitch-money-back, .pitch-grey-rad-bg, .pitch-top-features, .alidropship-get-plugin {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .pitch-get-started{
+        padding: 30px 0 35px 0;
+    }
+    .pitch-header strong {
+        font-size: 18px;
+    }
+    .pitch-header p {
+        margin-top: 17px;
+        margin-bottom: 19px;
+    }
+    .pitch-key-notes p {
+        margin: 10px 0 25px;
+    }
+    .pitch-top-features-row-title {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .built-in-themes, .single-click, .full-compatibility, .all-inclusive {
+        background-size: 45px;
+    }
+    .pitch-top-features-row-title {
+        padding-top: 55px;
+    }
+    .pitch-top-features-row-title:after {
+        margin: 10px 0;
+    }
+    .pitch-plugin-block-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .pitch-plugin-block-desc {
+        font-size: 13px;
+        line-height: 22px;
+        margin: 4px 0 24px;
+    }
+    .pitch-helped p {
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+    .pitch-button a, .pitch-money-back-link a, .pitch-get-started-link a {
+        font-size: 16px;
+        padding: 0;
+    }
+    .pitch-grey-rad-bg p {
+        margin-bottom: 22px;
+    }
+    .carousel .item p {
+        margin: 0 0 10px;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .carousel .item span {
+        font-size: 18px;
+        line-height: 26px;
+        display: block;
+        text-align: center;
+    }
+    .pitch-grey-rad-bg #why-carousel .carousel-inner .item img {
+        margin: 20px auto 0 auto;
+        height: 157px !important;
+        width: auto !important;
+    }
+    .founder .name, .founder .work {
+        font-size: 16px;
+    }
+    .founder .founder-subtitle {
+        margin-bottom: 20px;
+    }
+    .founder{
+        padding: 30px 0;
+    }
+    .pitch-get-started-block {
+        margin-top: 10px;
+        padding: 20px 15px;
+    }
+    .pitch-get-started-block-right ul {
+        padding-left: 5px;
+    }
+    .pitch-get-started-today-price {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .pitch-get-started-block-right ul li {
+        line-height: 32px;
+    }
+    .pitch-get-started-block-right {
+        padding-top: 0;
+        margin-top: 25px;
+        border-top: none;
+    }
+    .pitch-get-started-block-right ul li i.fa {
+        padding-right: 5px;
+    }
+    .founder .img-circle {
+        max-width: 135px;
+    }
+    .pitch-money-back {
+        padding: 30px 0 25px;
+    }
+    .pitch-money-back p {
+        margin: 15px 0 25px;
+    }
+    .pitch-automation, .pitch-flag, .pitch-free, .pitch-support {
+        background-size: 20px;
+    }
+    .pitch-plugin-block {
+        padding-left: 30px;
+    }
+    .pitch-helped-block {
+        margin-bottom: 15px;
+    }
+    .pitch-discount, .pitch-regular-price, .pitch-today-price {
+        font-size: 16px;
+        line-height: 34px;
+    }
+    .pitch-prices img {
+        max-width: 200px;
+        margin-left: -116px;
+        position: relative;
+        left: 50%;
+    }
+    .pitch-inside p {
+        margin-bottom: 20px;
+    }
+    .pitch-inside h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        line-height: 32px;
+    }
+    .pitch-inside img {
+        max-width: 40px;
+    }
+    .another-success-story h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .another-success-story-pad {
+        padding: 20px 0 22px;
+    }
+    .another-success-story {
+        margin: 40px 0;
+        padding: 14px 12px 16px;
+    }
+    .another-success-story p {
+        margin: 10px 0;
+    }
+    .pitch-people img {
+        max-width: 65px;
+    }
+    .pitch-today-price strong, .pitch-button a strong {
+        font-size: 22px;
+    }
+    .pitch-button {
+        margin: 13px 0 14px;
+    }
+    .pitch-how-works .another-success-story-sub {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .pitch-how-works .another-success-story {
+        padding: 15px 10px;
+        margin-bottom: 15px;
+    }
+    .pitch-how-works .text-right.pitch-install-plugin {
+        text-align: left;
+        padding-top: 10px;
+    }
+    .pitch-how-works-step {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .pitch-how-works-title {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 5px;
+    }
+    .pitch-install-plugin {
+        top: 20px;
+    }
+    .pitch-how-works-desc {
+        margin-top: 22px;
+    }
+    .pitch-how-works p {
+        margin-bottom: 10px;
+    }
+    .pitch-install-plugin, .pitch-webstore {
+        border-left: 1px solid #9b9b9b;
+        padding-left: 45px;
+    }
+    .pitch-install-plugin:after, .pitch-webstore:after {
+        content: "";
+        width: 32px;
+        height: 1px;
+        background-color: #9b9b9b;
+        position: absolute;
+        display: block;
+        top: 22px;
+    }
+    .pitch-how-works-title:after {
+        position: relative;
+        top: 0;
+        margin-top: 15px;
+    }
+    .pitch-install-plugin:after {
+        left: 0;
+    }
+    .pitch-webstore:after {
+        left: 0;
+        top: 57px;
+    }
+    .pitch-webstore {
+        padding-top: 45px;
+        padding-bottom: 20px;
+        top: 20px;
+    }
+    .pitch-note {
+        font-size: 12px;
+    }
+	.footer-right,
+	.footer-left {
+		display: block;
+	}
+	.footer-right {
+		padding-left: 0;
+	}
+	.footer-left {
+		padding-right: 0;
+		border-right: none;
+	}
+}
+@media (min-width: 992px) {
+    #why-carousel .owl-carousel .owl-dots {
+        margin-top: -30px;
+    }
+    .footer-left {
+        padding-right: 40px;
+        border-right: 1px solid #5f5f5f;
+    }
+    .footer-right {
+        padding-left: 40px;
+    }
+}
+@media (min-width: 1200px) {
+    #why-carousel .carousel-inner .item img{
+        width: 634px;
+        height: auto;
+    }
+    #why-carousel .owl-carousel .owl-dots {
+        margin-left: 8.3333%;
+    }
+}
+@media (max-width: 991px) {
+    .pitch-helped {
+        padding-bottom: 15px;
+    }
+    .pitch-grey-rad-bg {
+        padding-bottom: 15px;
+    }
+    .pitch-dark-alidropship {
+        padding: 35px 0;
+    }
+    .pitch-people img {
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+    .pitch-people p {
+        margin-bottom: 0;
+    }
+    .another-success-story br,
+    .pitch-people p br{
+        display: none;
+    }
+    .founder .founder-subtitle {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .footer-right {
+        text-align: right;
+    }
+	.thankyou-pitch-page-social {
+        margin-left: -345px;
+    }
+    .pitch-icon .fa {
+        padding: 0 5px 0 10px;
+    }
+    .fa-telegram-plane {
+        background-position: 8px;
+        padding-right: 30px !important;
+    }
+    .contact-us-icons .fa {
+        margin-right: 2px;
+    }
+    .contact-us-icons p {
+        font-size: 16px;
+    }
+    .thankyou-pitch-page-reminder br,
+    .thankyou-pitch-page span br {
+        display: none;
+    }
+    .thankyou-pitch-page hr {
+        max-width: 610px;
+    }
+    .section-tools-main hr {
+        max-width: 610px;
+        margin: 30px auto;
+    }
+	.pitch-page-contact-us {
+		padding: 38px 0 25px 0;
+	}
+	.pitch-page-contact-us h2 {
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 17px;
+	}
+}
+@media (max-width: 767px) {
+    .pitch-helped-author .col-xs-12 {
+        width: 50px;
+    }
+    .pitch-helped-author .col-xs-48 {
+        padding-left: 13px;
+    }
+    .another-success-story .another-success-story-sub {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .pitch-how-works{
+        padding-bottom: 50px;
+    }
+    #why-carousel {
+        margin-bottom: 20px;
+    }
+	.thankyou-pitch-page-reminder br,
+    .thankyou-pitch-page span br,
+    .thankyou-pitch-page h4 br,
+    .pitch-icon span,
+    .thankyou-pitch-page-contact-us p br {
+        display: none;
+    }
+    .thankyou-pitch-page {
+        padding: 40px 0 36px;
+    }
+    .thankyou-pitch-page h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .thankyou-pitch-page p {
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 20px;
+        margin-bottom: 17px;
+    }
+    .thankyou-pitch-page span,
+    .thankyou-pitch-page h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .thankyou-pitch-page hr {
+        margin: 30px auto 18px;
+    }
+    .thankyou-pitch-page-contact-us {
+        padding: 30px 0 16px;
+    }
+	.pitch-page-contact-us {
+		padding: 27px 0 25px 0;
+	}
+	.pitch-page-contact-us p.thankyou-pitch-page-contact-us-title {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.pitch-page-contact-us h2 {
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 17px;
+	}
+    .thankyou-pitch-page-social {
+        margin-left: -210px;
+    }
+    .pitch-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .fa-telegram-plane {
+        background-position: 5px 3px;
+        height: 30px;
+    }
+    .pitch-icon .fa.fa-facebook {
+        padding: 2px 0 0 12px;
+    }
+    .pitch-icon .fa.fa-instagram {
+        padding: 1px 0 0 9px;
+    }
+    .pitch-icon .fa.fa-twitter {
+        padding: 0 0 0 8px;
+    }
+    .pitch-icon .fa.fa-youtube-play {
+        padding: 0 0 0 6px;
+    }
+    .contact-us-icons p {
+        font-size: 16px;
+        line-height: 38px;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    .thankyou-pitch-page-reminder {
+        padding: 16px 0 15px;
+    }
+    .contact-us-icons {
+        margin-top: 24px;
+    }
+    .thankyou-pitch-page-social-icons {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    .thankyou-pitch-page-social {
+        margin-left: 0;
+        width: 100%;
+        left: 0;
+    }
+    .pitch-icon {
+        margin-right: 10px;
+    }
+    .section-main {
+        padding: 40px 0 45px 0;
+    }
+    .section-tools-main h1 {
+        font-size: 24px;
+    }
+    .tools-main-subtitle {
+        font-size: 15px;
+    }
+    .tools-main-content {
+        font-size: 14px;
+    }
+    .section-tools-main hr {
+        margin: 28px auto;
+    }
+    .section-block {
+        padding: 30px 0;
+    }
+    .section-block-pb {
+        padding: 0 0 30px 0 !important;
+    }
+    .section-title {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    .thankyou-pitch-page-contact-us.section-block-pb h2 {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+    .link-block {
+        margin-bottom: 14px;
+    }
+    .link-block pre {
+        font-size: 14px;
+    }
+	.link-note {
+	  font-size: 14px;
+	}
+    .affwp-creative {
+        margin-bottom: 22px;
+    }
+    .affwp-creative.affwp-creative-email-wrap {
+        margin-bottom: 22px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 782px) {
+    .logged-in.admin-bar .navbar-fixed-top {
+        top: 46px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #wpadminbar {
+        position: fixed !important;
+    }
+}
