@@ -1838,4 +1838,7 @@ h5 {
 	background-color: #eee;
 	color: #3b3b3b;
 }
+.navbar-brand img {
+    max-width: 210px;
+}
 /****************************** AFFILIATE TOOLS ******************************/
