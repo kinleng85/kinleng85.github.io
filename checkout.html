@@ -113,7 +113,7 @@
               </tr>
             </table>
             <div class="pitch-button" style="text-align:right">
-              <a id="btnCheckout" class="btn btn-large btn-large-orange" href="https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3DYANVZW7N4K9GE">Complete Order via PayPal</a>
+              <a id="btnCheckout" class="btn btn-large btn-large-orange" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YANVZW7N4K9GE">Complete Order via PayPal</a>
             </div>
           </div>
         </div>
@@ -136,11 +136,11 @@
               if (checkbox.checked == true) {
                 document.getElementById("tdPlugin").style.color = "#f57f17";
                 document.getElementById("tdTotal").innerHTML = "<b>US $"+(oriAmount+amount)+"</b>";
-                document.getElementById("btnCheckout").href = "https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3D"+buttonId;
+                document.getElementById("btnCheckout").href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id="+buttonId;
             } else {
                 document.getElementById("tdPlugin").style.color = "#bfbfbf";
                 document.getElementById("tdTotal").innerHTML = "<b>US $69</b>";
-                document.getElementById("btnCheckout").href = "https://www.dropship-commerce.com/goto.html?url=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3DYANVZW7N4K9GE";
+                document.getElementById("btnCheckout").href = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YANVZW7N4K9GE";
             }
         }
     </script>
